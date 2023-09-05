@@ -94,7 +94,7 @@ function executeOtherCode(videoId) {
   async function getVideoDetails(videoId) {
     try {
       const baseUrl = 'https://www.googleapis.com/youtube/v3';
-      const apiKey = "AIzaSyAC71IhvgS-ODqq3fHy_NTXUHOXSrZt2kA";
+      const apiKey = "AIzaSyAc4SS9d9sHDUCZXpcF3900Xp3TEThZBpQ";
 
       let url = `${baseUrl}/videos?key=${apiKey}&part=snippet,contentDetails,statistics&id=${videoId}`;
       let response = await fetch(url);
